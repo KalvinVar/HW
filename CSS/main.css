@@ -1,9 +1,89 @@
-header
-{
-    font-style: bold;
-    font-size: 25px;
+/* General Styles */
+body {
+    background-color: #bbcabf;
+    /* Light green background color */
+    font-family: Arial, sans-serif;
+    /* Default font family */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
 }
-.lowtext
-{
-    font-family: 'Arial';
+
+.container {
+    width: 80%;
+    /* Width of the main content container */
+    margin: 20px auto;
+    /* Center the container horizontally and provide some top and bottom margin */
+    background-color: #fff;
+    /* Background color for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a slight shadow effect */
+    border-radius: 8px;
+    /* Rounded corners for the container */
+    padding: 20px;
+    /* Padding inside the container */
+}
+
+.heading {
+    text-align: center;
+    /* Center-align the heading */
+    background-color: #87ceeb;
+    /* Background color for the heading */
+    color: white;
+    /* Text color for the heading */
+    padding: 10px;
+    /* Padding around the heading */
+    border-radius: 8px 8px 0 0;
+    /* Rounded corners for the top of the container */
+    margin-top: 0;
+    /* Remove default margin from the top of the heading */
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    /* Collapse table borders */
+    width: 100%;
+    /* Make the table fill the container width */
+    table-layout: fixed;
+    /* Ensure even column widths */
+}
+
+th {
+    background-color: #f2f2f2;
+    /* Background color for table header cells */
+    width: 33.33%;
+    /* Set equal width for each column */
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    /* Border for table cells */
+    text-align: left;
+    /* Align text to the left within cells */
+    padding: 10px;
+    /* Padding inside cells */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+    /* Slightly darker grey for even rows */
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    /* Center-align footer content */
+    margin-top: 20px;
+    /* Provide some top margin */
+    padding-top: 10px;
+    /* Padding at the top of the footer */
+    padding-bottom: 10px;
+    /* Padding at the bottom of the footer */
+    background-color: #f2f2f2;
+    /* Background color for the footer */
+    border-radius: 0 0 8px 8px;
+    /* Rounded corners for the bottom of the container */
 }

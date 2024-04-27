@@ -6,31 +6,31 @@
 	<meta name="viewport" content="with=decive-width, initial-scale=1.0">
 	<title> Smaple Website</title>
 	<link rel="stylesheet" href="CSS/main.css">
+	<script src="JS/test.js" defer></script>
 </head>
 
 <body>
-	<div>
-		<header>
-			<h2>Basic Math</h2>
-		</header>
+
+	<div class="container">
+		<h2 class="heading">Weather Forecast</h2>
+
+		<table id = "datatable">
+			<thead id = "columhead" >
+				<tr>
+					<th>Cities</th>
+					<th>Temperatures (&deg;C)</th>
+					<th>Chance of Rain (%)</th>
+				</tr>
+			</thead>
+			<tbody id = "columbody">
+				
+			</tbody>
+		</table>
+
+		<footer class="footer">
+			<p>&copy; 2024 Weather Forecast App</p>
+		</footer>
 	</div>
- <p id="lowtext"></p>
-	<script>
-		/* 2 Examples of declaring variables in JS */
-		let num1 = 13;
-
-		let string = "hello"
-		/* 3 Examples of basic arithmetic in JS */
-		let num2 = 1+1;
-		let num3 = 2/1;
-		let num4 = 2*4;
-
-		/* 2 Examples of using variables in arithmetic operations in JS */
-		let equ1 = num1 - num2
-
-		let equ2 = num1 - num4
-		document.getElementById("lowtext").innerHTML = equ1;
-	</script>
 
 </body>
 
